@@ -1,42 +1,31 @@
-  .heading
-  {
-    font-size:23px;
-    width: 100%;
-    margin: 0px;
-    box-shadow:5px 5px 5px grey;
-  }
-  .heading_div
-  {
-    float:none;
-    padding:10px;
-    background: white ; 
-    border-radius: 20px; 
-    color: black;
-    box-shadow:5px 5px 5px grey;
-  }
-  .heading_div2
-  {
-    font-size: 18px ;
-  }
-  .result_para_tag
-  {
-    box-shadow:5px 5px 5px grey;
-    font-size: 20px;
-  }
+body{
+    background-color:pink;
+}
 
-  .copy_right_footer{
-    position:fixed;
-    color:white;
-    width:100%;
-    bottom:0;
-    background-color: grey;
-    line-height:3;
-    text-align:center;
-  }
+#score{
+    font-size:25px;
+    margin-left:60px;
+    float:left;
+}
 
-  canvas{
-    border: 5px solid white;
-    border-radius:20px;
-    box-shadow:5px 5px 5px grey;
-    margin-top:160px;
-  }
+#timer{
+    font-size:25px;
+    margin-right:60px;
+    float:right;
+}
+
+#sketch_to_be_drawn{
+    color:black;
+}
+
+p{
+    font-size:30px;
+}
+
+#show_sketch{
+    font-size:25px;
+}
+
+h1{
+    background-color: deeppink;
+}
